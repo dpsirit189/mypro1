@@ -22,6 +22,7 @@ public class DigvijayLoginTest {
 	Reporter.log("step3) entered password");
 	w.findElement(By.id("submit")).click();  // clicks submit button
 	Reporter.log("step4) clicked submit");
+	
 	w.findElement(By.linkText("Logout")).click();
 	Reporter.log("clicked logout link");
   }
