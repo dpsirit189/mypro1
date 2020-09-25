@@ -8,6 +8,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class DigvijayLoginTest {
+	// my code
   @Test(dataProvider="dp")
   public void login(String us,String pw) {
 	  System.setProperty("webdriver.chrome.driver", "D:\\data\\st\\chromedriver.exe");  // path of chrome driver
